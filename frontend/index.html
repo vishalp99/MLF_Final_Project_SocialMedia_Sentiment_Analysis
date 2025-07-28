@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sentiment Analysis</title>
+    <title>Sentiment Analysis Demo Frontend</title>
+     <link rel="stylesheet" href="style.css">
  </head>
 <body>
     <div class="container">
@@ -35,10 +36,9 @@
         
         <div id="result" class="result"></div>
     </div>
-
+ <script src="sentiment.js" type="application/javascript"></script>
     <script>
-        // Initialize the app when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
+         document.addEventListener('DOMContentLoaded', () => {
             new SentimentAnalyzer();
         });
     </script>
