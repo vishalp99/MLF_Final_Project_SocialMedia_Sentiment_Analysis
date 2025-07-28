@@ -1,4 +1,4 @@
-# A Sentiment Analysis Project for Machine Learning Frameworks Course
+# A Social Media Sentiment Analysis Project for Machine Learning Frameworks Course
 
 A **Flask-based REST API** for real-time sentiment analysis on social media text using machine learning. Built with a model trained on the [Sentiment140 dataset](https://www.kaggle.com/kazanova/sentiment140) containing 1.6 million tweets.
 
