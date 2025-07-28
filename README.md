@@ -130,7 +130,7 @@ php -S localhost:8080
 
 > **Important:** Make sure both the Flask API (port 5000) and frontend server (port 8080) are running simultaneously.
 
-## 🔧 API Usage
+##  API Usage
 
 ### Base URL
 ```
@@ -208,7 +208,7 @@ fetch('http://127.0.0.1:5000/predict', {
 }
 ```
 
-## 🛠️ Development
+## Development
 
 ### Running in Debug Mode
 ```bash
@@ -236,7 +236,7 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
 - **Dataset:** Sentiment140 (1.6M tweets)
 - **Classes:** Binary (Positive/Negative)
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -262,18 +262,18 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 ```
 
-## 📊 Performance
+## Performance
 
 - **Response Time:** ~100-300ms per prediction
 - **Throughput:** ~100+ requests/second (single-threaded)
 - **Memory Usage:** ~50-100MB
 - **Accuracy:** ~80-85% (depending on text type)
 
-## 📄 License
+## License
 
 This project is a requirement for the course subject Machine Learning Frameworks Final Project
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Sentiment140 Dataset](https://www.kaggle.com/kazanova/sentiment140) by Stanford University
 - Flask and scikit-learn communities
