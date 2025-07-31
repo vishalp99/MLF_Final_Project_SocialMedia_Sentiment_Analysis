@@ -7,6 +7,14 @@ A **Flask-based REST API** for real-time sentiment analysis on social media text
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+## Live Demo
+- You can try the live demo here - [Live](https://sentiment-analysis-frontend-ze8k.onrender.com/)
+  
+> ⚠️ **Note:**  
+> The backend API is hosted on [Render’s free tier](https://render.com), which means:
+> - The server may take **10–30 seconds to “wake up”** after inactivity (cold start)
+> - If it seems slow or unresponsive at first — give it a moment and try again
+
 ## Features
 
 - **Real-time sentiment prediction** (Positive/Negative)
