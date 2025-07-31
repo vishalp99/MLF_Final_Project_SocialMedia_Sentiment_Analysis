@@ -4,12 +4,14 @@ import re
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
+from flask_cors import CORS
 
 # Download once if not already done
 nltk.download('stopwords')
 nltk.download('wordnet')
 
 app = Flask(__name__)
+CORS(app)
 
 # Load model and vectorizer
 with open("Models/model.pkl", "rb") as f:
@@ -58,4 +60,5 @@ def predict():
     }), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
+    #app.run(debug=True)

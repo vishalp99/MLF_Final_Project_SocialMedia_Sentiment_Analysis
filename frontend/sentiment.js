@@ -8,7 +8,7 @@ class SentimentAnalyzer {
     this.mlf_result = document.getElementById('result');
     this.mlf_charCounter = document.getElementById('charCounter');
 
-    this.mlf_apiUrl = 'http://localhost:5000/predict'; // Adjust this to your Flask app URL
+    this.mlf_apiUrl = 'https://socialmedia-sentiment-analysis.onrender.com/predict'; // Adjust this to your Flask app URL
 
     this.mlf_init();
   }
